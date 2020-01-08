@@ -14,9 +14,10 @@ header{
 
 
 .banner{
-    background: url(../img/banner.png);
+    background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     padding: 31px 0;
 }
 .banner-title{
@@ -199,10 +200,10 @@ header{
 
 .contact{
     padding: 31px 0;
-    background: url(../img/form.png);
+    background-image: url(../img/form.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 
 }
 .contact-title{
@@ -296,7 +297,9 @@ input[type=email]:focus{
 
 
 @media (min-width:0) and (max-width:500px){
-
+    .banner{
+        background-size: 50vh 100vh;
+    }
     .banner-title h1 {
         font-size: 300%;
     }
@@ -373,9 +376,6 @@ input[type=email]:focus{
 }
 
 @media (min-width:500.01px) and (max-width:768px){
-	.banner{
-        background-size: 50vh 100vh;
-    }
     .banner-title h1 {
         font-size: 400%;
     }
