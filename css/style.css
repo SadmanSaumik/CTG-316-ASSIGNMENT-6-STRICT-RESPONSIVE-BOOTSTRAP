@@ -298,7 +298,7 @@ input[type=email]:focus{
 
 @media (min-width:0) and (max-width:500px){
     .banner{
-        background-size: 50vh 100vh;
+        background-size: 100vh 100vh;
     }
     .banner-title h1 {
         font-size: 300%;
