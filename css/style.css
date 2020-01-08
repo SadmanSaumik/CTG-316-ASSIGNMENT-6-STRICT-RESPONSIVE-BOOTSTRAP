@@ -296,38 +296,49 @@ input[type=email]:focus{
 
 
 @media (min-width:0) and (max-width:500px){
+
     .banner-title h1 {
-        font-size: 375%;
+        font-size: 300%;
     }
     .banner-title p {
+        font-size: 90%;
+    }
+    .btn{
+        padding: .375rem .75rem;
         font-size: 100%;
     }
     .simple-design h2 {
-        font-size: 180%;
+        font-size: 150%;
     }
     .simple-design p {
         color: #999999;
-        font-size: 100%;
+        font-size: 90%;
         margin: 20px 0;
         text-align: justify;
         padding-bottom: 0;
+    }
+    .icon h3 {
+        font-size: 120%;
+    }
+    .icon p {
+        font-size: 90%; 
     }
     .gallery-title {
         padding: 0 15px;
     }
     .gallery-title h2 {
-        font-size: 180%;
+        font-size: 150%;
     }
     .gallery-title p {
         color: #999999;
-        font-size: 100%;
+        font-size: 90%;
         padding-top: 4%;
     }
     .image {
         margin: 15px;
     }
     .image.image-bottom{
-        margin-bottom: 0;
+        margin-bottom: 15px;
     }
     .form-main {
         padding-bottom: 0;
@@ -336,11 +347,11 @@ input[type=email]:focus{
         padding: 0;
     }
     .contact-title h2 {
-        font-size: 180%;
+        font-size: 150%;
 
     }
     .contact-title p {
-        font-size: 100%;
+        font-size: 90%;
     }
     .form-main label {
         font-size: 87.5%;
@@ -363,16 +374,35 @@ input[type=email]:focus{
 
 @media (min-width:500.01px) and (max-width:768px){
     .banner-title h1 {
-        font-size: 500%;
+        font-size: 400%;
+    }
+    .banner-title p {
+        font-size: 113%;
+    }
+    .simple-design h2 {
+        font-size: 200%;
+    }
+    .simple-design p {
+        font-size: 113%;
+        padding-bottom: 0;
+ 
+    }
+    .icon h3 {
+        font-size: 150%; 
+    }
+    .icon p {
+        font-size: 113%;
+    }
+    .gallery-title h2 {
+        font-size: 200%;
     }
     .image.image-bottom{
-        margin-bottom: 0;
+        margin-bottom: 15px;
     }
     .image {
         margin: 15px;
     }
 }
-
 @media (min-width:768.01px) and (max-width:1200px){
     .banner-title h1 {
         font-size: 550%;
