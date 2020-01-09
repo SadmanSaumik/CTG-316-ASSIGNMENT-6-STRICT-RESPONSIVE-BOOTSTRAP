@@ -298,7 +298,7 @@ input[type=email]:focus{
 
 @media (min-width:0) and (max-width:500px){
     .banner{
-        background-size: 100vh 100vh;
+        background-size: 100vw 100vh;
     }
     .banner-title h1 {
         font-size: 300%;
@@ -376,7 +376,10 @@ input[type=email]:focus{
 }
 
 @media (min-width:500.01px) and (max-width:768px){
-    .banner-title h1 {
+    .banner{
+        background-size: 100vw 100vh;
+    }
+	.banner-title h1 {
         font-size: 400%;
     }
     .banner-title p {
@@ -407,7 +410,10 @@ input[type=email]:focus{
     }
 }
 @media (min-width:768.01px) and (max-width:1200px){
-    .banner-title h1 {
+    .banner{
+        background-size: 100vw 100vh;
+    }
+	.banner-title h1 {
         font-size: 550%;
     }
 }
